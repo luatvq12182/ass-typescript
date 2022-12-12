@@ -1,0 +1,240 @@
+{
+  "users": [
+    {
+      "email": "luatvq2@fpt.com.vn",
+      "password": "$2a$10$QItjXtRBIx4VzZOUv.P6huTL5TuDcCtOZ.vCu46UJtYfMIwz2BBBu",
+      "username": "LuatVQ2",
+      "id": 1
+    }
+  ],
+  "terms": [
+    {
+      "name": "javascript",
+      "slug": "javascript",
+      "taxonomy": "tag",
+      "id": 5
+    },
+    {
+      "name": "html",
+      "slug": "html",
+      "taxonomy": "tag",
+      "id": 6
+    },
+    {
+      "name": "css",
+      "slug": "css",
+      "taxonomy": "tag",
+      "id": 7
+    },
+    {
+      "name": "Education",
+      "slug": "education",
+      "taxonomy": "category",
+      "id": 8
+    },
+    {
+      "name": "Lifestyle",
+      "slug": "lifestyle",
+      "taxonomy": "category",
+      "id": 9
+    },
+    {
+      "name": "Featured",
+      "slug": "featured",
+      "parentId": "",
+      "taxonomy": "category",
+      "id": 10
+    },
+    {
+      "name": "People",
+      "slug": "people",
+      "taxonomy": "category",
+      "id": 11
+    },
+    {
+      "name": "Design",
+      "slug": "design",
+      "taxonomy": "category",
+      "id": 12
+    },
+    {
+      "name": "Culture",
+      "slug": "culture",
+      "taxonomy": "category",
+      "id": 13
+    },
+    {
+      "name": "Architecture",
+      "slug": "Architecture",
+      "taxonomy": "category",
+      "id": 14
+    },
+    {
+      "name": "Story",
+      "slug": "story",
+      "taxonomy": "category",
+      "id": 15
+    },
+    {
+      "name": "Journey",
+      "slug": "journey",
+      "taxonomy": "category",
+      "id": 16
+    }
+  ],
+  "attachments": [
+    {
+      "size": 131179,
+      "fileName": "photo-1524222717473-730000096953_1670619536026.png",
+      "mimetype": "image/jpeg",
+      "id": 8
+    },
+    {
+      "size": 128801,
+      "fileName": "photo-1524502974494-abe9b22351c5_1670620753733.png",
+      "mimetype": "image/jpeg",
+      "id": 9
+    },
+    {
+      "size": 125070,
+      "fileName": "photo-1515106426117-7483c8b91e9b_1670620931947.png",
+      "mimetype": "image/jpeg",
+      "id": 10
+    },
+    {
+      "size": 46842,
+      "fileName": "photo-1520032484190-e5ef81d87978_1670743633774.png",
+      "mimetype": "image/jpeg",
+      "id": 11
+    },
+    {
+      "size": 210633,
+      "fileName": "photo-1518382473172-c5b406fe7efd_1670765125668.png",
+      "mimetype": "image/jpeg",
+      "id": 12
+    },
+    {
+      "size": 190409,
+      "fileName": "photo-1502014822147-1aedfb0676e0_1670765646490.png",
+      "mimetype": "image/jpeg",
+      "id": 13
+    },
+    {
+      "size": 198870,
+      "fileName": "photo-1512414584153-b9a3e3484950_1670765775017.png",
+      "mimetype": "image/jpeg",
+      "id": 14
+    },
+    {
+      "size": 117260,
+      "fileName": "photo-1462743708072-4ed3a4a860be_1670765865194.png",
+      "mimetype": "image/jpeg",
+      "id": 15
+    },
+    {
+      "size": 137164,
+      "fileName": "photo-1480796927426-f609979314bd_1670767582712.png",
+      "mimetype": "image/jpeg",
+      "id": 16
+    }
+  ],
+  "posts": [
+    {
+      "title": "I'm passionate about food, the tradition of it, cooking it, sharing it",
+      "slug": "i'm-passionate-about-food-the-tradition-of-it-cooking-it-sharing-it",
+      "thumbnail": "photo-1524222717473-730000096953_1670619536026.png",
+      "categories": [
+        9,
+        10
+      ],
+      "content": "<p>Audio equidem philosophi vocem, Epicure, sed quid tibi dicendum sit oblitus es. Haec et tu ita posuisti, et verba vestra sunt. Contemnit enim disserendi elegantiam, confuse loquitur. Bona autem corporis huic sunt, quod posterius posui, similiora. Quod cum ita sit, perspicuum est omnis rectas res atque laudabilis eo referri, ut cum voluptate vivatur.</p><p><br></p><p>Quasi vero aut concedatur in omnibus stultis aeque magna esse vitia, et eadem inbecillitate et inconstantia L. Levatio igitur vitiorum magna fit in iis, qui habent ad virtutem progressionis aliquantum. Tertium autem omnibus aut maximis rebus iis, quae secundum naturam sint, fruentem vivere. Materiam vero rerum et copiam apud hos exilem, apud illos uberrimam reperiemus. Atque his de rebus et splendida est eorum et illustris oratio.</p><p><br></p><h2>Utinam quidem dicerent alium alio beatiorem. Iam ruinas videres. Non autem hoc, igitur.</h2><p><br></p><p>Age, inquies, ista parva sunt. Ad eos igitur converte te, quaeso. Haec para/doca illi, nos admirabilia dicamus. Universa enim illorum ratione cum tota vestra confligendum puto.</p><p><br></p><p>Quos nisi redarguimus, omnis virtus, omne decus, omnis vera laus deserenda est. Sed eum qui audiebant, quoad poterant, defendebant sententiam suam. Fatebuntur Stoici haec omnia dicta esse praeclare, neque eam causam Zenoni desciscendi fuisse. Quisted est autem dignus nomine hominis, qui unum diem totum velit esse in genere isto voluptatis. Ad eos igitur convert te, quaeso. Duo Reges: constructio interrete. An est aliquid per se ipsum flagitiosum, etiamsi nulla comitetur infamia. Quid ad utilitatem tantae pecuniae? Duo enim genera quae erant, fecit tria. Et quod est munus, quod opus sapientiae? Sed in rebus apertissimis nimium longi sumus.</p>",
+      "id": 1
+    },
+    {
+      "title": "Look at life with the eyes of a child",
+      "slug": "look-at-life-with-the-eyes-of-a-child",
+      "categories": [
+        11
+      ],
+      "thumbnail": "photo-1524502974494-abe9b22351c5_1670620753733.png",
+      "content": "<p>Sed ut iis bonis erigimur, quae expectamus, sic laetamur iis, quae recordamur. At hoc in eo M. Quid de Platone aut de Democrito loquar. Quae in controversiam veniunt, de iis, si placet, disseramus. Iam quae corporis sunt, ea nec auctoritatem cum animi partibus, comparandam et cognitionem habent faciliorem. Quam ob rem tandem, inquit, non satisfacit. Isto modo ne improbos quidem, si essent boni viri. Qui autem esse poteris, nisi te amor ipse ceperit. Utilitatis causa amicitia est quaesita.</p><p><br></p><p>Quae quo sunt excelsiores, eo dant clariora indicia naturae. Sed haec quidem liberius ab eo dicuntur et saepius. Et ille ridens: Video, inquit, quid agas; Tum ille timide vel potius verecunde: Facio, inquit. An hoc usque quaque, aliter in vita? Unum nescio, quo modo possit, si luxuriosus sit, finitas cupiditates habere. Aliter enim explicari, quod quaeritur, non potest. Sed haec quidem liberius ab eo dicuntur et saepius.</p><p><br></p><h2>Utinam quidem dicerent alium alio beatiorem. Iam ruinas videres. Non autem hoc, igitur. Audio equidem philosophi vocem, Epicure.</h2><p><br></p><p>Sed quid tibi dicendum sit oblitus es. Haec et tu ita posuisti, et verba vestra sunt. Contemnit enim disserendi elegantiam, confuse loquitur. Bona autem corporis huic sunt, quod posterius posui, similiora. Quod cum ita sit, perspicuum est omnis rectas res atque laudabilis eo referri, ut cum voluptate vivatur.</p><p><br></p><p>Quasi vero aut concedatur in omnibus stultis aeque magna esse vitia, et eadem inbecillitate et inconstantia L. Levatio igitur vitiorum magna fit in iis, qui habent ad virtutem progressionis aliquantum. Tertium autem omnibus aut maximis rebus iis, quae secundum naturam sint, fruentem vivere. Materiam vero rerum et copiam apud hos exilem, apud illos uberrimam reperiemus. Atque his de rebus et splendida est eorum et illustris oratio.</p><p><br></p><ul><li>A quibus propter discendi cupiditatem esse peragratas.</li><li>Quod si ita est, omnes semper beatos esse sapientes</li><li>Hic Speusippus, hic Xenocrates</li><li>Sed id ne cogitari quidem potest quale sit, ut non repugnet ipsum sibi</li><li>Nihilne te delectat umquam te igitur, Torquate</li></ul><p><br></p><p>Age, inquies, ista parva sunt. Ad eos igitur converte te, quaeso. Haec para/doca illi, nos admirabilia dicamus. Universa enim illorum ratione cum tota vestra confligendum puto.</p><p><br></p><p>Quos nisi redarguimus, omnis virtus, omne decus, omnis vera laus deserenda est. Sed eum qui audiebant, quoad poterant, defendebant sententiam suam. Fatebuntur Stoici haec omnia dicta esse praeclare, neque eam causam Zenoni desciscendi fuisse. Quis est autem dignus nomine hominis, qui unum diem totum velit esse in genere isto voluptatis. Ad eos igitur convert te, quaeso. Duo Reges: constructio interrete. An est aliquid per se ipsum flagitiosum, etiamsi nulla comitetur infamia. Quid ad utilitatem tantae pecuniae? Duo enim genera quae erant, fecit tria. Et quod est munus, quod opus sapientiae? Sed in rebus apertissimis nimium longi sumus.</p>",
+      "id": 2
+    },
+    {
+      "title": "I think it's the responsibility of a designer to try to break rules and barriers",
+      "slug": "i-think-it's-the-responsibility-of-a-designer-to-try-to-break-rules-and-barriers",
+      "thumbnail": "photo-1520032484190-e5ef81d87978_1670743633774.png",
+      "content": "<p>Ego autem existimo, si honestum esse aliquid ostendero, quod sit ipsum vi sua propter seque expetendum, iacere vestra omnia. Et summatim quidem haec erant de corpore animoque dicenda, quibus quasi informatum est quid hominis natura postulet. Quod autem satis est, eo quicquid accessit, nimium est. An ea, quae per vinitorem antea consequebatur, per se ipsa curabit? Restincta enim sitis stabilitatem voluptatis habet, inquit, illa autem voluptas ipsius restinctionis in motu est. Tum ille timide vel potius verecunde.</p><p><br></p><p>Quibus autem in rebus tanta obscuratio non fit, fieri tamen potest, ut id ipsum, quod interest, non sit magnum.</p><p><br></p><p>Ita fit ut, quanta differentia est in principiis naturalibus, tanta sit in finibus bonorum malorumque dissimilitudo. Ut proverbia non nulla veriora sint quam vestra dogmata. Commentarios quosdam, inqua.</p><p><br></p><p>Aristotelios, quos hic sciebam esse, veni ut auferrem, quos legerem, dum essem otiosus.At enim, qua in vita est aliquid mali, ea beata esse non potest. Zenonis est, inquam, hoc Stoici. Miserum hominem! Si dolor summum malum est, dici aliter non potest. Videamus igitur sententias eorum, tum ad verba redeamus. Vide, ne etiam menses! nisi forte eum dicis, qui, simul atque arripuit, interficit. Atque his de rebus et splendida est eorum et illustris oratio.</p>",
+      "categories": [
+        10,
+        12
+      ],
+      "id": 3
+    },
+    {
+      "title": "Every day, in every city and town across the country",
+      "slug": "every-day-in-every-city-and-town-across-the-country",
+      "thumbnail": "photo-1515106426117-7483c8b91e9b_1670620931947.png",
+      "categories": [
+        8
+      ],
+      "content": "<p>Expressa vero in iis aetatibus, quae iam confirmatae sunt. Tum Piso: Atqui, Cicero, inquit, ista studia, si ad imitandos summos viros spectant, ingeniosorum sunt; Quibus autem in rebus tanta obscuratio non fit, fieri tamen potest, ut id ipsum, quod interest, non sit magnum. Ita fit ut, quanta differentia est in principiis naturalibus, tanta sit in finibus bonorum malorumque dissimilitudo</p><p><br></p><p>. Zenonis est, inquam, hoc Stoici. Miserum hominem! Si dolor summum malum est, dici aliter non potest. Videamus igitur sententias eorum, tum ad verba redeamus. Vide, ne etiam menses! nisi forte eum dicis, qui, simul atque arripuit, interficit. Atque his de rebus et splendida est eorum et illustris oratio.</p><p><br></p><p>Sed tamen intellego quid velit. Non est igitur summum malum dolor. Tu autem inter haec tantam multitudinem hominum interiectam non vides nec laetantium nec dolentium? Non igitur bene. Reicietur etiam Carneades, nec ulla de summo bono ratio aut voluptatis non dolendive particeps aut honestatis expers probabitur. Quamquam</p><p><br></p><p>Sed haec quidem liberius ab eo dicuntur et saepius. Et ille ridens: Video, inquit, quid agas; Tum ille timide vel potius verecunde: Facio, inquit. An hoc usque quaque, aliter in vita? Unum nescio, quo modo possit, si luxuriosus sit, finitas cupiditates habere. Aliter enim explicari, quod quaeritur, non potest. Sed haec quidem liberius ab eo dicuntur et saepius.</p><p><br></p><p>Sed tamen intellego quid velit. Non est igitur summum malum dolor. Tu autem inter haec tantam multitudinem hominum interiectam non vides nec laetantium nec dolentium? Non igitur bene. Reicietur etiam Carneades, nec ulla de summo bono ratio aut voluptatis non dolendive particeps aut honestatis expers probabitur. Quamquam</p>",
+      "id": 4
+    },
+    {
+      "title": "Pop culture is a reflection",
+      "slug": "pop-culture-is-a-reflection",
+      "thumbnail": "photo-1518382473172-c5b406fe7efd_1670765125668.png",
+      "categories": [
+        13
+      ],
+      "content": "<p>Epicure, sed quid tibi dicendum sit oblitus es. Haec et tu ita posuisti, et verba vestra sunt. Contemnit enim disserendi elegantiam, confuse loquitur. Bona autem corporis huic sunt, quod posterius posui, similiora. Quod cum ita sit, perspicuum est omnis rectas res atque laudabilis eo referri, ut cum voluptate vivatur.</p><p><br></p><p>Quasi vero aut concedatur in omnibus stultis aeque magna esse vitia, et eadem inbecillitate et inconstantia L. Levatio igitur vitiorum magna fit in iis, qui habent ad virtutem progressionis aliquantum. Tertium autem omnibus aut maximis rebus iis, quae secundum naturam sint, fruentem vivere. Materiam vero rerum et copiam apud hos exilem, apud illos uberrimam reperiemus. Atque his de rebus et splendida est eorum et illustris oratio.</p><p><br></p><p>Quos nisi redarguimus, omnis virtus, omne decus, omnis vera laus deserenda est. Sed eum qui audiebant, quoad poterant, defendebant sententiam suam. Fatebuntur Stoici haec omnia dicta esse praeclare, neque eam causam Zenoni desciscendi fuisse. Quis est autem dignus nomine hominis, qui unum diem totum velit esse in genere isto voluptatis. Ad eos igitur convert te, quaeso. Duo Reges: constructio interrete. An est aliquid per se ipsum flagitiosum, etiamsi nulla comitetur infamia. Quid ad utilitatem tantae pecuniae? Duo enim genera quae erant, fecit tria. Et quod est munus, quod opus sapientiae? Sed in rebus apertissimis nimium longi sumus.Quasi vero aut concedatur in omnibus stultis aeque magna esse vitia, et eadem inbecillitate et inconstantia L. Levatio igitur vitiorum magna fit in iis, qui habent ad virtutem progressionis aliquantum. Tertium autem omnibus aut maximis rebus iis, quae secundum naturam sint, fruentem vivere. Materiam vero rerum et copiam apud hos exilem, apud illos uberrimam reperiemus. Atque his de rebus et splendida est eorum et illustris oratio.</p>",
+      "id": 5
+    },
+    {
+      "title": "Change is always happening",
+      "slug": "change-is-always-happening",
+      "thumbnail": "photo-1502014822147-1aedfb0676e0_1670765646490.png",
+      "categories": [
+        8,
+        12,
+        13,
+        14
+      ],
+      "content": "<p>Audio equidem philosophi vocem, Epicure, sed quid tibi dicendum sit oblitus es. Haec et tu ita posuisti, et verba vestra sunt. Contemnit enim disserendi elegantiam, confuse loquitur. Bona autem corporis huic sunt, quod posterius posui, similiora. Quod cum ita sit, perspicuum est omnis rectas res atque laudabilis eo referri, ut cum voluptate vivatur.</p><p><br></p><p>Tertium autem omnibus aut maximis rebus iis, quae secundum naturam sint, fruentem vivere. Materiam vero rerum et copiam apud hos exilem, apud illos uberrimam reperiemus. Atque his de rebus et splendida est eorum et illustris oratio.</p><p><br></p><p>&nbsp;Iam ruinas videres. Non autem hoc: igitur ne illud quidem. Age, inquies, ista parva sunt. Ad eos igitur converte te, quaeso. Haec para/doca illi, nos admirabilia dicamus. Universa enim illorum ratione cum tota vestra confligendum puto.</p>",
+      "id": 6
+    },
+    {
+      "title": "The creation of beauty is art",
+      "slug": "the-creation-of-beauty-is-art",
+      "thumbnail": "photo-1512414584153-b9a3e3484950_1670765775017.png",
+      "categories": [
+        10,
+        15
+      ],
+      "content": "<p>Quasi vero aut concedatur in omnibus stultis aeque magna esse vitia, et eadem inbecillitate et inconstantia L. Levatio igitur vitiorum magna fit in iis, qui habent ad virtutem progressionis aliquantum. Tertium autem omnibus aut maximis rebus iis, quae secundum naturam sint, fruentem vivere. Materiam vero rerum et copiam apud hos exilem, apud illos uberrimam reperiemus. Atque his de rebus et splendida est eorum et illustris oratio.</p><p><br></p><p>Ego autem existimo, si honestum esse aliquid ostendero, quod sit ipsum vi sua propter seque expetendum, iacere vestra omnia. Et summatim quidem haec erant de corpore animoque dicenda, quibus quasi informatum est quid hominis natura postulet. Quod autem satis est, eo quicquid accessit, nimium est; An ea, quae per vinitorem antea consequebatur, per se ipsa curabit?</p><p><br></p><p>Expressa vero in iis aetatibus, quae iam confirmatae sunt. Tum Piso: Atqui, Cicero, inquit, ista studia, si ad imitandos summos viros spectant, ingeniosorum sunt; Quibus autem in rebus tanta obscuratio non fit, fieri tamen potest, ut id ipsum, quod interest, non sit magnum. Ita fit ut, quanta differentia est in principiis naturalibus, tanta sit in finibus bonorum malorumque dissimilitudo. Utabe greta siet proverbia non nulla veriora sint quam vestra dogmata. Commentarios quosdam, inquam, Aristotelios, quos hic sciebam esse, veni ut auferrem, quos legerem, dum essem otiosus; At enim, qua in vita est aliquid mali, ea beata esse non potest. Zenonis est, inquam, hoc Stoici. Miserum hominem! Si dolor summum malum est, dici aliter non potest. Videamus igitur sententias eorum, tum ad verba redeamus. Vide, ne etiam menses! nisi forte eum dicis, qui, simul atque arripuit, interficit. Atque his de rebus et splendida est eorum et illustris oratio.</p>",
+      "id": 7
+    },
+    {
+      "title": "I cannot look at modern buildings without thinking of historical ones",
+      "slug": "i-cannot-look-at-modern-buildings-without-thinking-of-historical-ones",
+      "thumbnail": "photo-1462743708072-4ed3a4a860be_1670765865194.png",
+      "categories": [
+        14
+      ],
+      "content": "<p>Quasi vero aut concedatur in omnibus stultis aeque magna esse vitia, et eadem inbecillitate et inconstantia L. Levatio igitur vitiorum magna fit in iis, qui habent ad virtutem progressionis aliquantum. Tertium autem omnibus aut maximis rebus iis, quae secundum naturam sint, fruentem vivere. Materiam vero rerum et copiam apud hos exilem, apud illos uberrimam reperiemus. Atque his de rebus et splendida est eorum et illustris oratio.</p><p><br></p><p>Quos nisi redarguimus, omnis virtus, omne decus, omnis vera laus deserenda est. Sed eum qui audiebant, quoad poterant, defendebant sententiam suam. Fatebuntur Stoici haec omnia dicta esse praeclare, neque eam causam Zenoni desciscendi fuisse. Quis est autem dignus nomine hominis, qui unum diem totum velit esse in genere isto voluptatis. Ad eos igitur convert te, quaeso. Duo Reges: constructio interrete. An est aliquid per se ipsum flagitiosum, etiamsi nulla comitetur infamia. Quid ad utilitatem tantae pecuniae? Duo enim genera quae erant, fecit tria. Et quod est munus, quod opus sapientiae? Sed in rebus apertissimis nimium longi sumus.</p>",
+      "id": 8
+    },
+    {
+      "title": "I love Japan, and Tokyo is my favorite city",
+      "slug": "i-love-japan-and-tokyo-is-my-favorite-city",
+      "thumbnail": "photo-1480796927426-f609979314bd_1670767582712.png",
+      "categories": [
+        15,
+        16
+      ],
+      "content": "<p>Haec et tu ita posuisti, et verba vestra sunt. Contemnit enim disserendi elegantiam, confuse loquitur. Bona autem corporis huic sunt, quod posterius posui, similiora. Quod cum ita sit, perspicuum est omnis rectas res atque laudabilis eo referri, ut cum voluptate vivatur.</p><p><br></p><p>Quasi vero aut concedatur in omnibus stultis aeque magna esse vitia, et eadem inbecillitate et inconstantia L. Levatio igitur vitiorum magna fit in iis, qui habent ad virtutem progressionis aliquantum. Tertium autem omnibus aut maximis rebus iis, quae secundum naturam sint, fruentem vivere. Materiam vero rerum et copiam apud hos exilem, apud illos uberrimam reperiemus. Atque his de rebus et splendida est eorum et illustris oratio.</p><p><br></p><p>Age, inquies, ista parva sunt. Ad eos igitur converte te, quaeso. Haec para/doca illi, nos admirabilia dicamus. Universa enim illorum ratione cum tota vestra confligendum puto.</p><p><br></p><p>Quos nisi redarguimus, omnis virtus, omne decus, omnis vera laus deserenda est. Sed eum qui audiebant, quoad poterant, defendebant sententiam suam. Fatebuntur Stoici haec omnia dicta esse praeclare, neque eam causam Zenoni desciscendi fuisse. Quis est autem dignus nomine hominis, qui unum diem totum velit esse in genere isto voluptatis. Ad eos igitur convert te, quaeso. Duo Reges: constructio interrete. An est aliquid per se ipsum flagitiosum, etiamsi nulla comitetur infamia. Quid ad utilitatem tantae pecuniae? Duo enim genera quae erant, fecit tria. Et quod est munus, quod opus sapientiae? Sed in rebus apertissimis nimium longi sumus.</p>",
+      "id": 9
+    }
+  ]
+}
