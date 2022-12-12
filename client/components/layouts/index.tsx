@@ -20,7 +20,7 @@ const Layout = ({ children }: Props) => {
   }, [router.pathname]);
 
   if (router.pathname.includes("admin")) {
-    return children;
+    return <div>{children}</div>;
   }
 
   const categories: Term[] = terms?.data?.filter((term: Term) => {

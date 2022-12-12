@@ -6,7 +6,7 @@ import { Post, Term } from "../../interfaces";
 import useCategoriesOfPost from "../../hooks/useCategoriesOfPost";
 import usePostDetail from "../../hooks/usePostDetail";
 import usePostsOfCategory from "../../hooks/usePostsOfCategory";
-import { CONFIG } from "../config";
+import { CONFIG } from "../../config";
 
 const PostDetail = () => {
   const router = useRouter();

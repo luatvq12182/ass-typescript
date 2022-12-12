@@ -1,5 +1,5 @@
 import axios from "axios";
-import { CONFIG } from "../pages/config";
+import { CONFIG } from "../config";
 
 const http = axios.create({
   baseURL: CONFIG.API_URL,

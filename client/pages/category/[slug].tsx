@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import useTerms from "../../hooks/queries/useTerms";
 import { Post, Term } from "../../interfaces";
 import usePostsOfCategory from "../../hooks/usePostsOfCategory";
-import { CONFIG } from "../config";
+import { CONFIG } from "../../config";
 import Head from "next/head";
 
 const Category = () => {
