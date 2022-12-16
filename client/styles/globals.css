@@ -14,3 +14,8 @@
   z-index: 1;
   border-radius: 26px;
 }
+
+.nav-item:hover > .sub-menu {
+  display: flex;
+}
+

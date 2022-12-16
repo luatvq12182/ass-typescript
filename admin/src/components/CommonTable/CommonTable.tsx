@@ -5,15 +5,17 @@ import { ColumnType } from '../../interfaces';
 type Props = {
     columns: Array<ColumnType>;
     value: Array<any>;
+    loading?: boolean;
 };
 
-const CommonTable = ({ value, columns }: Props) => {
+const CommonTable = ({ value, columns, loading = false }: Props) => {
     const genOrder = (_data: any, options: ColumnBodyOptions) => {
         return options.rowIndex + 1;
     };
 
     return (
         <DataTable
+            loading={loading}
             value={value}
             paginator
             rows={10}

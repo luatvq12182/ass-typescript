@@ -10,7 +10,7 @@ import { ColumnType, Post } from '../../interfaces';
 const Posts = () => {
     const navigate = useNavigate();
     const idSelected = useRef<number>(null!);
-    const { data } = usePosts();
+    const { data, isFetching } = usePosts();
     const { deletePost } = useMutationPost();
     const { showConfirm } = useConfirm({
         message: 'Bạn có chắc muốn xóa bài viết này?',
@@ -67,8 +67,8 @@ const Posts = () => {
                 );
             },
             style: {
-                width: '120px'
-            }
+                width: '120px',
+            },
         },
     ];
 
@@ -84,7 +84,11 @@ const Posts = () => {
                 </Button>
             </div>
             <div className='col-span-2 rounded-md bg-white p-7 shadow-lg'>
-                <CommonTable value={data?.data || []} columns={columns} />
+                <CommonTable
+                    value={data?.data || []}
+                    columns={columns}
+                    loading={isFetching}
+                />
             </div>
         </div>
     );

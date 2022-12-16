@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.p-tree
+    .p-tree-container
+    .p-treenode
+    .p-treenode-content:focus
+    .p-treenode-label {
+    border-color: transparent !important;
+}

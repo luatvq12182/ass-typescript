@@ -4,6 +4,7 @@ import usePosts from "../hooks/queries/usePosts";
 import { Post } from "../interfaces";
 import Button from "../components/Button";
 import Input from "../components/Input";
+import { CONFIG } from "../config";
 
 export default function Home() {
   const { data: posts } = usePosts();
@@ -21,17 +22,22 @@ export default function Home() {
       <div className="grid grid-cols-3 gap-8">
         {posts?.data.slice(0, 9).map((post: Post, i: number) => {
           return (
-            <article
-              style={{
-                backgroundImage: `url(http://localhost:22222/images/${post.thumbnail})`,
-              }}
+            <Link
               key={post.id}
-              className={`hover:-top-2 top-0 ease-in duration-150 article relative w-full min-h-[370px] bg-cover rounded-[26px] p-10 cursor-pointer col-span-${layouts[i]}`}
+              href={`/post/${post.slug}`}
+              className={`col-span-${layouts[i]}`}
             >
-              <h2 className="text-white text-[30px] font-bold z-10 relative">
-                <Link href={`/post/${post.slug}`}>{post.title}</Link>
-              </h2>
-            </article>
+              <article
+                style={{
+                  backgroundImage: `url(${CONFIG.API_URL}/images/${post.thumbnail})`,
+                }}
+                className={`hover:-top-2 top-0 ease-in duration-150 article relative w-full min-h-[370px] bg-cover rounded-[26px] p-10 cursor-pointer`}
+              >
+                <h2 className="text-white text-[30px] font-bold z-10 relative">
+                  {post.title}
+                </h2>
+              </article>
+            </Link>
           );
         })}
       </div>
@@ -41,7 +47,7 @@ export default function Home() {
           Join our occasional newsletter
         </h2>
 
-        <Input placeholder="Your email address" />
+        <Input placeholder="Your email address" className="w-4/5 text-center" />
 
         <Button>Subscribe</Button>
       </div>

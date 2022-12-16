@@ -8,9 +8,15 @@ type Props = {
     data: Term[];
     onDeleteTerm: any;
     onOpenDialogUpdate: (term: Term) => void;
+    loading: boolean;
 };
 
-const TermTable = ({ data, onDeleteTerm, onOpenDialogUpdate }: Props) => {
+const TermTable = ({
+    data,
+    onDeleteTerm,
+    onOpenDialogUpdate,
+    loading,
+}: Props) => {
     const idSelected = useRef<number>(null!);
     const { showConfirm } = useConfirm({
         message: 'Bạn có chắc muốn xóa chuyên mục này?',
@@ -55,7 +61,7 @@ const TermTable = ({ data, onDeleteTerm, onOpenDialogUpdate }: Props) => {
 
     return (
         <div>
-            <CommonTable value={data} columns={columns} />
+            <CommonTable value={data} columns={columns} loading={loading} />
         </div>
     );
 };

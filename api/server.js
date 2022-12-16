@@ -96,6 +96,16 @@ app.delete('/api/files/:id', authentication, (req, res) => {
     }
 });
 
+app.put('/api/terms/update-menu', authentication, (req, res) => {
+    req.body.forEach((data) => {
+        router.db.get('terms').updateById(data.id, data).write();
+    });
+
+    res.json({
+        data: req.body,
+    });
+});
+
 app.use('/api', authentication, router);
 
 app.listen(process.env.PORT, () => {

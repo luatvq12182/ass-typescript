@@ -1,13 +1,16 @@
-import { useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import useFiles from '../../hooks/queries/useFiles';
 import useMutationFile from '../../hooks/mutations/useMutationFile';
 import { Button } from 'primereact/button';
 import useConfirm from '../../hooks/useConfirm';
+import useLoading from '../../hooks/useLoading';
 
 const Upload = () => {
+    const { showLoading, hideLoading } = useLoading();
+
     const idSelected = useRef<number>(null!);
     const ipFile = useRef<HTMLInputElement | null>(null!);
-    const { data } = useFiles();
+    const { data, isFetching } = useFiles();
     const { uploadFile, deleteFile } = useMutationFile();
     const { showConfirm } = useConfirm({
         message: 'Bạn có chắc muốn xóa file này?',
@@ -33,6 +36,14 @@ const Upload = () => {
 
         uploadFile(formData);
     };
+
+    useEffect(() => {
+        if (isFetching) {
+            showLoading();
+        } else {
+            hideLoading();
+        }
+    }, [isFetching]);
 
     return (
         <div>

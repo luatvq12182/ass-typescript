@@ -5,5 +5,17 @@ import Posts from './Posts';
 import SignIn from './SignIn';
 import Term from './Term';
 import Upload from './Upload';
+import Menu from './Menu';
+import Comment from './Comment';
 
-export { AddPost, EditPost, NotFound, Posts, SignIn, Term, Upload };
+export {
+    AddPost,
+    EditPost,
+    NotFound,
+    Posts,
+    SignIn,
+    Term,
+    Upload,
+    Menu,
+    Comment,
+};

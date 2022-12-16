@@ -3,7 +3,10 @@ const { verify, decode } = require('jsonwebtoken');
 const authentication = (req, res, next) => {
     const { authorization } = req.headers;
 
-    if (req.method === 'GET' && !authorization) {
+    if (
+        (req.method === 'GET' && !authorization) ||
+        (req.method === 'POST' && req.url === '/comments')
+    ) {
         next();
         return;
     } else {

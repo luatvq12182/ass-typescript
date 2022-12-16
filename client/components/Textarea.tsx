@@ -1,29 +1,29 @@
-import React from "react";
+import React, { ChangeEventHandler } from "react";
 
 type Props = {
   placeholder?: string;
-  type?: string;
   className?: string;
+  rows?: number;
   required?: boolean;
-  onChange?: (e: React.FormEvent<HTMLInputElement>) => void;
+  onChange: (e: React.FormEvent<HTMLTextAreaElement>) => void;
 };
 
-const Input = ({
+const Textarea = ({
   placeholder = "",
-  type = "text",
+  rows = 4,
   className = "",
   required = false,
   onChange,
 }: Props) => {
   return (
-    <input
+    <textarea
       onChange={onChange}
       required={required}
       placeholder={placeholder}
-      type={type}
+      rows={rows}
       className={`
         mt-[30px] px-[6px] py-[9px] 
-        text-white font-bold text-[20px] 
+        text-[20px] text-white font-bold  
         border-b-[7px] border-[#717171] 
         focus:border-[#e7a007] duration-150 
         outline-none bg-transparent
@@ -33,4 +33,4 @@ const Input = ({
   );
 };
 
-export default Input;
+export default Textarea;

@@ -40,3 +40,4 @@ const LoadingProvider = ({ children }: Props) => {
 };
 
 export default LoadingProvider;
+export { LoadingContext };

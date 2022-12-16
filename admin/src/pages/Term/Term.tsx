@@ -10,7 +10,7 @@ import { useState } from 'react';
 const TermManage = () => {
     const [searchParams] = useSearchParams();
     const taxonomy = searchParams.get('taxonomy') || 'category';
-    const { data } = useTerms();
+    const { data, isFetching } = useTerms();
     const { createTerm, updateTerm, deleteTerm } = useMutationTerm(taxonomy);
 
     const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -46,6 +46,7 @@ const TermManage = () => {
 
                 <div className='col-span-2 rounded-md bg-white p-7 shadow-lg'>
                     <TermTable
+                        loading={isFetching}
                         onDeleteTerm={deleteTerm}
                         onOpenDialogUpdate={handleOpenDialogUpdate}
                         data={

@@ -1,7 +1,17 @@
 import { RouteObject } from 'react-router-dom';
 import App from '../App';
 import RequireAuth from '../auth/RequireAuth';
-import { AddPost, EditPost, NotFound, Posts, SignIn, Term, Upload } from '../pages';
+import {
+    AddPost,
+    EditPost,
+    NotFound,
+    Posts,
+    SignIn,
+    Term,
+    Upload,
+    Menu,
+    Comment,
+} from '../pages';
 
 const routes: RouteObject[] = [
     {
@@ -15,6 +25,10 @@ const routes: RouteObject[] = [
             {
                 path: 'upload',
                 element: <Upload />,
+            },
+            {
+                path: 'menu',
+                element: <Menu />,
             },
             {
                 path: 'posts',
@@ -31,6 +45,10 @@ const routes: RouteObject[] = [
             {
                 path: 'term',
                 element: <Term />,
+            },
+            {
+                path: 'comments',
+                element: <Comment />,
             },
         ],
     },

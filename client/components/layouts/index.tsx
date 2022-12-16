@@ -1,9 +1,11 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Term } from "../../interfaces";
 import useTerms from "../../hooks/queries/useTerms";
 import { useRouter } from "next/router";
+import { listToTree } from "../../utils";
+import MenuLink from "../MenuLink";
 
 type Props = {
   children: React.ReactNode;
@@ -11,6 +13,7 @@ type Props = {
 
 const Layout = ({ children }: Props) => {
   const { data: terms } = useTerms();
+  const [categories, setCategories] = useState<Term[]>([]);
   const router = useRouter();
 
   useEffect(() => {
@@ -19,13 +22,20 @@ const Layout = ({ children }: Props) => {
     }
   }, [router.pathname]);
 
+  useEffect(() => {
+    setCategories(
+      listToTree(
+        terms?.data?.filter((term: Term) => {
+          return term.taxonomy === "link";
+        }) || [],
+        true
+      )
+    );
+  }, [terms]);
+
   if (router.pathname.includes("admin")) {
     return <div>{children}</div>;
   }
-
-  const categories: Term[] = terms?.data?.filter((term: Term) => {
-    return term.taxonomy === "category";
-  });
 
   return (
     <div>
@@ -35,17 +45,8 @@ const Layout = ({ children }: Props) => {
         </Link>
 
         <ul className="flex">
-          {categories?.map((item: Term) => {
-            return (
-              <li key={item.id}>
-                <Link
-                  className="p-[10px] text-[16px] text-white font-bold hover:text-[#e7a007] duration-150"
-                  href={`/category/${item.slug}`}
-                >
-                  {item.name}
-                </Link>
-              </li>
-            );
+          {categories?.map((item: any) => {
+            return <MenuLink key={item.id} data={item} />;
           })}
 
           <li className="flex items-center ml-2 cursor-pointer">
@@ -73,7 +74,7 @@ const Layout = ({ children }: Props) => {
                 <li key={item.id}>
                   <Link
                     className="p-[10px] text-[16px] text-white font-bold"
-                    href={`/category/${item.slug}`}
+                    href={String(item.slug)}
                   >
                     {item.name}
                   </Link>

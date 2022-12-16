@@ -13,6 +13,9 @@ const TermService = {
     updateTerm: (data: Term) => {
         return http.put(TERM + '/' + data.id, data);
     },
+    updateMenu: (data: Term[]) => {
+        return http.put(TERM + '/update-menu', data);
+    },
     deleteTerm: (id: number) => {
         return http.delete(TERM + '/' + id);
     },
